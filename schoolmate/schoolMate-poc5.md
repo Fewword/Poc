@@ -1,5 +1,5 @@
 # Exploit Title: SchoolMate v1.5.4 - Insecure Direct Object Reference(IDOR)
-## Date: 4/1/2024
+## Date: 1/4/2024
 ## Vendor Homepage: https://sourceforge.net/projects/schoolmate/files/latest/download
 ## Tested on: Debian Linux, Apache, Mysql
 ## Vendor: SchoolMate
