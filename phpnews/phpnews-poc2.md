@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## PHPNews v1.3.0 suffers from IDOR - Broken Access Control Vulnerability allowing attackers to update or delete comment that owned by other user(horizontal privilege escalation).
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 ```
 POST /index.php?action=updatecomments HTTP/1.1
 ...

