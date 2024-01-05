@@ -2,7 +2,7 @@
 ## Date: 1/4/2024
 ## Vendor Homepage: https://phpgurukul.com/hospital-management-system-in-php
 ## Tested on: Debian Linux, Apache, Mysql
-## Vendor: PHPNews
+## Vendor: Phpgurukul
 ## Version: v4.0
 ## Exploit Description:
 ## Hospital Management System v4.0 suffers from BOPLA - Broken Access Control Vulnerability allowing attacker doctor to update his email that cannot modify in UI.
